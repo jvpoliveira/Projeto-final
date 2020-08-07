@@ -1,0 +1,130 @@
+html, body {
+    margin: 0;
+}
+#imagem-fundo{
+    background: url(img/fundo-ods3.jpg);
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 15;
+}
+.titulo{
+    color: black;
+    padding-top: 10%;
+    font-size: 60px;
+    font-style: oblique;
+}
+.subtitulo{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: white solid;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.acao{
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+}
+#apresentacao{
+    text-align: center;
+    margin: 0;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+h3{
+    font-size: 30px;
+    border-bottom: black solid 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.video{
+    border: solid blue 3px;
+}
+.paragrafo{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.icone{
+    width: 51px;
+}
+.coluna{
+    float: left;
+    position: relative;
+    padding: 0 5%;
+}
+.dois{
+    width: 40%;
+    background-color: whitesmoke;
+}
+.tres{
+    width: 15%;
+    text-align: center;
+}
+#objetivos{
+    width: 100%;
+    float: left;
+}
+section{
+    float: left;
+    margin: 0;
+}
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+}
+#opa{
+    color: green;
+}
+#img{
+    width: 250px;
+    margin-left: 20%;
+    border: grey solid 1px;
+    margin-bottom: 10px;
+}
+#sobre{
+    background-color: whitesmoke;
+    padding-top: 15px;
+}
+.menu{
+    color: white;
+    float: right;
+    list-style: none;
+    margin-top: 0;
+    margin-right: 5%;
+}
+li{
+    float: left;
+    padding: 20 10 20 10;
+}
+li:hover{
+    background-color: #bf3030;
+}
+.logo{
+    width: 50px;
+    top: 4px;
+    position: absolute;
+    margin-left: 2%;
+}
+footer{
+    background-color: #bf3030;
+    float: left;
+    width: 100%;
+}
+.final{
+    width: 40%;
+    float: left;
+}
+.visited{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
